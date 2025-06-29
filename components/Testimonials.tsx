@@ -69,9 +69,9 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I can trust the results from Mictlan AI. It's a relief to know
-                  that a candidate's score reflects their ability, not their
-                  skill with ChatGPT.
+                  I can trust the results from Mictlan AI. It's a relief to
+                  know that a candidate's score reflects their ability, not
+                  their skill with ChatGPT.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
@@ -86,8 +86,9 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Finally, an assessment platform that's caught up to the age of
-                  AI. It's an essential part of our hiring toolkit now.
+                  Finally, an assessment platform that's caught up to the
+                  age of AI. It's an essential part of our hiring toolkit
+                  now.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
@@ -131,42 +132,44 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Adopting this app for our team has streamlined our project
-                  management and improved communication across the board.
+                  The confidence Mictlan gives us is unparalleled. We've
+                  eliminated the 'AI factor' from our initial
+                  screening.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar4} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Jordan Patels</div>
-                    <div>@jpatelsdesign</div>
+                    <div>Head of Talent, ScaleUp</div>
                   </div>
                 </div>
               </div>
 
-              <div className="shadow-xl w-[310px] rounded-2xl p-8">
+              <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  With this app, we can easily assign tasks, track progress, and
-                  manage documents all in one place.
+                  Mictlan's platform is intuitive. We were creating and
+                  sending out robust, cheat-proof assessments within minutes.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar8} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Sam Dawson</div>
-                    <div>@dawsontechtips</div>
+                    <div>Recruiter, DevHouse</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Its user-friendly interface and robust features support our
-                  diverse needs.
+                  As a startup, we can't afford bad hires. Mictlan ensures
+                  we're talking to candidates with genuine, verifiable
+                  skills.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar9} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Casey Harper</div>
-                    <div>@casey09</div>
+                    <div>CEO, FirstRound</div>
                   </div>
                 </div>
               </div>
@@ -207,9 +210,9 @@ const Testimonials = () => {
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I can trust the results from Mictlan AI. It's a relief to know
-                  that a candidate's score reflects their ability, not their
-                  skill with ChatGPT.
+                  I can trust the results from Mictlan AI. It's a relief to
+                  know that a candidate's score reflects their ability, not
+                  their skill with ChatGPT.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
@@ -224,8 +227,9 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Finally, an assessment platform that's caught up to the age of
-                  AI. It's an essential part of our hiring toolkit now.
+                  Finally, an assessment platform that's caught up to the
+                  age of AI. It's an essential part of our hiring toolkit
+                  now.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
@@ -269,42 +273,44 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Adopting this app for our team has streamlined our project
-                  management and improved communication across the board.
+                  The confidence Mictlan gives us is unparalleled. We've
+                  eliminated the 'AI factor' from our initial
+                  screening.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar4} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Jordan Patels</div>
-                    <div>@jpatelsdesign</div>
+                    <div>Head of Talent, ScaleUp</div>
                   </div>
                 </div>
               </div>
 
-              <div className="shadow-xl w-[310px] rounded-2xl p-8">
+              <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  With this app, we can easily assign tasks, track progress, and
-                  manage documents all in one place.
+                  Mictlan's platform is intuitive. We were creating and
+                  sending out robust, cheat-proof assessments within minutes.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar8} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Sam Dawson</div>
-                    <div>@dawsontechtips</div>
+                    <div>Recruiter, DevHouse</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  Its user-friendly interface and robust features support our
-                  diverse needs.
+                  As a startup, we can't afford bad hires. Mictlan ensures
+                  we're talking to candidates with genuine, verifiable
+                  skills.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar9} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Casey Harper</div>
-                    <div>@casey09</div>
+                    <div>CEO, FirstRound</div>
                   </div>
                 </div>
               </div>
