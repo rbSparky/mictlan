@@ -133,7 +133,7 @@ const Testimonials = () => {
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
                   The confidence Mictlan gives us is unparalleled. We've
-                  eliminated the 'AI factor' from our initial
+                  eliminated the ‘AI factor’ from our initial
                   screening.
                 </div>
                 <div className="flex items-center gap-3">
@@ -274,7 +274,7 @@ const Testimonials = () => {
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
                   The confidence Mictlan gives us is unparalleled. We've
-                  eliminated the 'AI factor' from our initial
+                  eliminated the ‘AI factor’ from our initial
                   screening.
                 </div>
                 <div className="flex items-center gap-3">
