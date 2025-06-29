@@ -6,9 +6,8 @@ import Tube from "@/public/assests/tube.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import { FaArrowRight } from "react-icons/fa";
-import { GoBell, GoGoal } from "react-icons/go";
-import { LuLeaf } from "react-icons/lu";
+import { FaArrowRight, FaCode, FaBrain } from "react-icons/fa";
+import { GoGoal } from "react-icons/go";
 import { MdLockOutline } from "react-icons/md";
 
 const ProductShowcase = () => {
@@ -28,16 +27,16 @@ const ProductShowcase = () => {
     >
       <div className="flex flex-col items-center font-medium mt-24 px-8 mx-auto md:w-[550px] lg:w-[630px]">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
-          Boost your productivity
+          Ensure Hiring Integrity
         </div>
         <div className="text-3xl md:text-4xl lg:text-5xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          A more effective way to track progress
+          Why Mictlan AI is Cheat-Proof
         </div>
 
         <div className="text-center text-lg mb-8 md:text-xl">
-          Effortlessly turn your ideas into a fully functional, responsive,
-          no-code SaaS website in just minutes with the set of free components
-          for Framer.
+          Our assessments are meticulously designed to challenge human
+          intellect and expose the limitations of generative AI, ensuring you
+          evaluate genuine problem-solving skills.
         </div>
       </div>
       <div className="relative ">
@@ -62,10 +61,11 @@ const ProductShowcase = () => {
 
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 max-w-[1400px] lg:px-28">
         <div className="mt-16">
-          <LuLeaf className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Integration ecosystem</div>
+          <MdLockOutline className="text-2xl mb-3" />
+          <div className="font-bold text-2xl">LLM-Resistant Questions</div>
           <div className="text-lg my-2">
-            Track your progress and motivate your efforts everyday.
+            Our bank is engineered to be unsolvable by models like GPT-4,
+            ensuring authentic responses.
           </div>
           <div className="text-lg font-medium">
             Learn more <FaArrowRight className="inline h-3 w-3" />
@@ -74,9 +74,10 @@ const ProductShowcase = () => {
 
         <div className="mt-16">
           <GoGoal className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Goal setting and tracking</div>
+          <div className="font-bold text-2xl">Human-Vetted Problems</div>
           <div className="text-lg my-2">
-            Set and track goals with manageable task breakdowns.
+            Each problem is tested by human developers to ensure fairness and
+            accurate difficulty.
           </div>
           <div className="text-lg font-medium">
             Learn more <FaArrowRight className="inline h-3 w-3" />
@@ -84,10 +85,11 @@ const ProductShowcase = () => {
         </div>
 
         <div className="mt-16">
-          <MdLockOutline className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Secure data encryption</div>
+          <FaBrain className="text-2xl mb-3" />
+          <div className="font-bold text-2xl">Deep Reasoning Challenges</div>
           <div className="text-lg my-2">
-            Ensure data safety with top-tier encryption.
+            We focus on problems requiring creative logic and insight that AI
+            cannot mimic.
           </div>
           <div className="text-lg font-medium">
             Learn more <FaArrowRight className="inline h-3 w-3" />
@@ -95,10 +97,11 @@ const ProductShowcase = () => {
         </div>
 
         <div className="mt-16">
-          <GoBell className="text-2xl mb-3" />
-          <div className="font-bold text-2xl">Customizable notifications</div>
+          <FaCode className="text-2xl mb-3" />
+          <div className="font-bold text-2xl">Comprehensive Coverage</div>
           <div className="text-lg my-2">
-            Get alerts on tasks and deadlines that matter most.
+            Assess candidates across various CS domains, from algorithms to
+            competitive programming.
           </div>
           <div className="text-lg font-medium">
             Learn more <FaArrowRight className="inline h-3 w-3" />

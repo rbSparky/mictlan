@@ -25,21 +25,22 @@ const Hero = () => {
     >
       <div className="md:flex items-center justify-center gap-16">
         <div className="md:w-[478px]">
-          <div className="border-2 w-fit p-0.5 px-1 lg:text-lg rounded-lg border-slate-400/80">
-            Version 2.0 is here
+          <div className="border-2 w-fit p-0.5 px-2 lg:text-lg rounded-lg border-slate-400/80">
+            The Future of Technical Assessments
           </div>
           <div className="text-5xl md:text-7xl font-black my-7 bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text tracking-tighter">
-            Pathway to productivity
+            Hire Real Talent, Not AI-Generated Code.
           </div>
           <div className="text-xl lg:text-2xl tracking-tighter opacity-85">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress, motivate your efforts, and celebrate your successes.
+            With 71% of candidates using AI to cheat, traditional coding tests
+            are obsolete. Mictlan AI offers LLM-resistant assessments to reveal
+            true problem-solving skills.
           </div>
 
           <div className="flex items-center gap-3 mt-6 text-lg">
-            <Button text="Get for free" />
+            <Button text="Request a Demo" />
             <div className="cursor-pointer hover:underline">
-              Learn more
+              See How It Works
               <FaArrowRight className="h-3 w-3 inline ml-2" />
             </div>
           </div>

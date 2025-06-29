@@ -20,7 +20,7 @@ const Testimonials = () => {
           Testimonials
         </div>
         <div className="text-4xl lg:text-5xl pt-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          What our users say
+          What our clients say
         </div>
       </div>
       <div className="overflow-hidden [mask-image:linear-gradient(to_top,transparent,black,transparent)] h-[750px] mb-12 md:mb-28 lg:mb-36">
@@ -39,42 +39,45 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  As a seasoned designer always on the lookout for innovative
-                  tools, Framer.com instantly grabbed my attention.
+                  We were struggling with candidates acing our coding tests but
+                  failing on the job. Mictlan AI changed everything. We're
+                  finally seeing true problem-solving skills.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar1} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Alex Rivera</div>
-                    <div>@jamietechguru00</div>
+                    <div>Lead Recruiter, TechCorp</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Our productivity has skyrocketed since we started using this
-                  tool.
+                  The quality of our technical hires has improved dramatically.
+                  Mictlan's questions are tough but fair, and they genuinely
+                  filter for the kind of engineers we want.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar6} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Josh Smith</div>
-                    <div>@jjsmith</div>
+                    <div>CTO, Innovate Solutions</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  This app has completely transformed how I manage my projects
-                  and deadlines.
+                  I can trust the results from Mictlan AI. It's a relief to know
+                  that a candidate's score reflects their ability, not their
+                  skill with ChatGPT.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Morgan Lee</div>
-                    <div>@morganleewhiz</div>
+                    <div>VP of Engineering, DataDriven Inc.</div>
                   </div>
                 </div>
               </div>
@@ -83,43 +86,43 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I was amazed at how quickly we were able to integrate this app
-                  into our workflow.
+                  Finally, an assessment platform that's caught up to the age of
+                  AI. It's an essential part of our hiring toolkit now.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Casey Jordan</div>
-                    <div>@caseyj</div>
+                    <div>Hiring Manager, NextGen Apps</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Planning and executing events has never been easier. This app
-                  helps me keep track of all the moving parts, ensuring nothing
-                  slips through the cracks.
+                  Integrating Mictlan was seamless. We started identifying
+                  stronger, more authentic candidates from day one. The
+                  difference is night and day.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar2} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Taylor Kim</div>
-                    <div>@taylorkimm</div>
+                    <div>Founder, CodeCrafters</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  The customizability and integration capabilities of this app
-                  are top-notch.
+                  The problem quality is exceptional. They test for creativity
+                  and deep understanding, not just pattern matching.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar5} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Riley Smith</div>
-                    <div>@rileysmith1</div>
+                    <div>Senior Software Engineer, QuantumLeap</div>
                   </div>
                 </div>
               </div>
@@ -174,42 +177,45 @@ const Testimonials = () => {
             <div className="hidden md:block">
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  As a seasoned designer always on the lookout for innovative
-                  tools, Framer.com instantly grabbed my attention.
+                  We were struggling with candidates acing our coding tests but
+                  failing on the job. Mictlan AI changed everything. We're
+                  finally seeing true problem-solving skills.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar1} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Alex Rivera</div>
-                    <div>@jamietechguru00</div>
+                    <div>Lead Recruiter, TechCorp</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Our productivity has skyrocketed since we started using this
-                  tool.
+                  The quality of our technical hires has improved dramatically.
+                  Mictlan's questions are tough but fair, and they genuinely
+                  filter for the kind of engineers we want.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar6} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Josh Smith</div>
-                    <div>@jjsmith</div>
+                    <div>CTO, Innovate Solutions</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  This app has completely transformed how I manage my projects
-                  and deadlines.
+                  I can trust the results from Mictlan AI. It's a relief to know
+                  that a candidate's score reflects their ability, not their
+                  skill with ChatGPT.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar3} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Morgan Lee</div>
-                    <div>@morganleewhiz</div>
+                    <div>VP of Engineering, DataDriven Inc.</div>
                   </div>
                 </div>
               </div>
@@ -218,43 +224,43 @@ const Testimonials = () => {
             <div>
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  I was amazed at how quickly we were able to integrate this app
-                  into our workflow.
+                  Finally, an assessment platform that's caught up to the age of
+                  AI. It's an essential part of our hiring toolkit now.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar7} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Casey Jordan</div>
-                    <div>@caseyj</div>
+                    <div>Hiring Manager, NextGen Apps</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8 my-6">
                 <div className="font-medium pb-4">
-                  Planning and executing events has never been easier. This app
-                  helps me keep track of all the moving parts, ensuring nothing
-                  slips through the cracks.
+                  Integrating Mictlan was seamless. We started identifying
+                  stronger, more authentic candidates from day one. The
+                  difference is night and day.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar2} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Taylor Kim</div>
-                    <div>@taylorkimm</div>
+                    <div>Founder, CodeCrafters</div>
                   </div>
                 </div>
               </div>
 
               <div className="shadow-xl w-[310px] rounded-2xl p-8">
                 <div className="font-medium pb-4">
-                  The customizability and integration capabilities of this app
-                  are top-notch.
+                  The problem quality is exceptional. They test for creativity
+                  and deep understanding, not just pattern matching.
                 </div>
                 <div className="flex items-center gap-3">
                   <Image src={Avatar5} alt="Avatar" className="h-12 w-12" />
                   <div>
                     <div className="font-semibold">Riley Smith</div>
-                    <div>@rileysmith1</div>
+                    <div>Senior Software Engineer, QuantumLeap</div>
                   </div>
                 </div>
               </div>
