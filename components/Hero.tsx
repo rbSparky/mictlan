@@ -26,20 +26,21 @@ const Hero = () => {
       <div className="md:flex items-center justify-center gap-16">
         <div className="md:w-[478px]">
           <div className="border-2 w-fit p-0.5 px-1 lg:text-lg rounded-lg border-slate-400/80">
-            Version 2.0 is here
+            LLM-resistant assessments
           </div>
           <div className="text-5xl md:text-7xl font-black my-7 bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text tracking-tighter">
-            Pathway to productivity
+            Cheating-proof tech hiring
           </div>
           <div className="text-xl lg:text-2xl tracking-tighter opacity-85">
-            Celebrate the joy of accomplishment with an app designed to track
-            your progress, motivate your efforts, and celebrate your successes.
+            71 % of candidates admit to cheating. Mictlan AI’s
+            human-vetted question bank exposes AI-generated answers so you hire
+            real problem-solvers—not prompt engineers.
           </div>
 
           <div className="flex items-center gap-3 mt-6 text-lg">
-            <Button text="Get for free" />
+            <Button text="Get started free" />
             <div className="cursor-pointer hover:underline">
-              Learn more
+              How it works
               <FaArrowRight className="h-3 w-3 inline ml-2" />
             </div>
           </div>
@@ -49,18 +50,14 @@ const Hero = () => {
           <motion.img
             src={Cylinder.src}
             alt="Cylinder"
-            className=" hidden md:block md:absolute -left-8 -top-8"
-            style={{
-              translateY: translateY,
-            }}
+            className="hidden md:block md:absolute -left-8 -top-8"
+            style={{ translateY }}
           />
           <motion.img
             src={HeroImage.src}
-            alt="Hero Image"
+            alt="Hero"
             className="md:absolute md:h-full md:w-auto md:max-w-none"
-            animate={{
-              translateY: [-30, 30],
-            }}
+            animate={{ translateY: [-30, 30] }}
             transition={{
               repeat: Infinity,
               repeatType: "mirror",
@@ -70,11 +67,9 @@ const Hero = () => {
           />
           <motion.img
             src={HalfTorus.src}
-            alt="HalfTorus"
-            className=" hidden lg:block md:absolute left-[400px] top-[500px]"
-            style={{
-              translateY: translateY,
-            }}
+            alt="Half-torus"
+            className="hidden lg:block md:absolute left-[400px] top-[500px]"
+            style={{ translateY }}
           />
         </div>
       </div>

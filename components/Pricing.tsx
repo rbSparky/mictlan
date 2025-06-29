@@ -1,5 +1,3 @@
-import { FaCheck } from "react-icons/fa";
-import Button from "./Button";
 import { IoMdCheckmark } from "react-icons/io";
 
 const Pricing = () => {
@@ -7,133 +5,77 @@ const Pricing = () => {
     <div className="mb-8">
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
-          Boost your productivity
+          Simple, transparent pricing
         </div>
         <div className="text-3xl md:text-4xl lg:text-5xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          A more effective way to track progress
+          Pay only for real talent signals
         </div>
-
         <div className="text-center text-lg mb-8 md:text-xl">
-          Effortlessly turn your ideas into a fully functional, responsive,
-          no-code SaaS website in just minutes with the set of free components
-          for Framer.
+          Every plan includes our full LLM-resistant question bank, automatic
+          grading and cheating detection. Cancel anytime.
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center lg:items-end justify-center pb-20 gap-8">
+        {/* Community */}
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
-          <div className="font-bold text-gray-500">Free</div>
+          <div className="font-bold text-gray-500">Community</div>
           <div className="py-8">
             <span className="font-extrabold text-5xl">$0</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Get started for free
+            Get started free
           </button>
           <div className="flex flex-col gap-6">
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 5 project members
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> 2GB storage
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Basic support
-            </div>
+            <div><IoMdCheckmark className="inline mr-2" />10 candidates / month</div>
+            <div><IoMdCheckmark className="inline mr-2" />Core question bank</div>
+            <div><IoMdCheckmark className="inline mr-2" />Basic LLM detection</div>
+            <div><IoMdCheckmark className="inline mr-2" />Email support</div>
           </div>
         </div>
 
+        {/* Growth */}
         <div className="shadow-2xl border-2 rounded-2xl p-8 bg-black text-white">
           <div className="flex justify-between items-center">
-            <div className="font-bold text-gray-500">Pro</div>
-            <div className="border-2 w-fit p-0.5 px-3 text-xs rounded-xl border-slate-300/20 bg-gradient-to-r from-pink-500  via-lime-600 to-sky-400 text-transparent bg-clip-text font-bold tracking-tighter">
+            <div className="font-bold text-gray-400">Growth</div>
+            <div className="border-2 w-fit p-0.5 px-3 text-xs rounded-xl border-slate-300/20 bg-gradient-to-r from-pink-500 via-lime-600 to-sky-400 text-transparent bg-clip-text font-bold tracking-tighter">
               Most Popular
             </div>
           </div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$9</span>
-            <span className="font-semibold text-gray-600">/month</span>
+            <span className="font-extrabold text-5xl">$99</span>
+            <span className="font-semibold text-gray-400">/month</span>
           </div>
           <button className="text-black font-medium mb-8 bg-white py-1.5 w-full rounded-lg cursor-pointer">
-            Sign up now
+            Start free trial
           </button>
           <div className="flex flex-col gap-6">
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> 50GB storage
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Priority support
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Advanced support
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Expert support
-            </div>
+            <div><IoMdCheckmark className="inline mr-2" />100 candidates / month</div>
+            <div><IoMdCheckmark className="inline mr-2" />Unlimited roles</div>
+            <div><IoMdCheckmark className="inline mr-2" />Advanced LLM detection</div>
+            <div><IoMdCheckmark className="inline mr-2" />ATS integrations</div>
+            <div><IoMdCheckmark className="inline mr-2" />Priority support</div>
           </div>
         </div>
+
+        {/* Enterprise */}
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
-          <div className="font-bold text-gray-500">Business</div>
+          <div className="font-bold text-gray-500">Enterprise</div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$19</span>
+            <span className="font-extrabold text-5xl">$199</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Sign up now
+            Contact sales
           </button>
           <div className="flex flex-col gap-6">
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
-              projects
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> 200GB storage
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Integrations
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Dedicated account
-              manager
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Custom fields
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" />
-              Advanced analytics
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" />
-              Export capabilities
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> API access
-            </div>
-            <div>
-              <IoMdCheckmark className="inline mr-2" /> Advanced security
-              features
-            </div>
+            <div><IoMdCheckmark className="inline mr-2" />Unlimited candidates</div>
+            <div><IoMdCheckmark className="inline mr-2" />Custom questions</div>
+            <div><IoMdCheckmark className="inline mr-2" />Dedicated CSM</div>
+            <div><IoMdCheckmark className="inline mr-2" />API & webhooks</div>
+            <div><IoMdCheckmark className="inline mr-2" />SOC 2 & SSO</div>
+            <div><IoMdCheckmark className="inline mr-2" />24/7 priority support</div>
           </div>
         </div>
       </div>
