@@ -8,20 +8,20 @@ import HalfTorus from "@/public/assests/half-torus.png";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
+const WAITLIST_URL = "https://tally.so/r/wM2d2M";
+
 const Hero = () => {
   const heroRef = useRef(null);
-
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start end", "end start"],
   });
-
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
 
   return (
     <section
       ref={heroRef}
-      className="p-8 pb-16 md:p-10 lg:p-20 font-medium bg-gradient-to-tr from-[#001E80] via-[#e4eaff]  overflow-x-clip md:items-center gap-3"
+      className="p-8 pb-16 md:p-10 lg:p-20 font-medium bg-gradient-to-tr from-[#001E80] via-[#e4eaff] overflow-x-clip md:items-center gap-3"
     >
       <div className="md:flex items-center justify-center gap-16">
         <div className="md:w-[478px]">
@@ -32,17 +32,20 @@ const Hero = () => {
             Cheating-proof tech hiring
           </div>
           <div className="text-xl lg:text-2xl tracking-tighter opacity-85">
-            71 % of candidates admit to cheating. Mictlan AI’s
-            human-vetted question bank exposes AI-generated answers so you hire
-            real problem-solvers—not prompt engineers.
+            71 % of candidates admit to cheating. Mictlan AI reveals true
+            problem-solvers—not prompt engineers.
           </div>
 
           <div className="flex items-center gap-3 mt-6 text-lg">
             <Button text="Get started free" />
-            <div className="cursor-pointer hover:underline">
-              How it works
-              <FaArrowRight className="h-3 w-3 inline ml-2" />
-            </div>
+            <a
+              href={WAITLIST_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline inline-flex items-center gap-1"
+            >
+              How it works <FaArrowRight className="h-3 w-3" />
+            </a>
           </div>
         </div>
 
@@ -55,15 +58,10 @@ const Hero = () => {
           />
           <motion.img
             src={HeroImage.src}
-            alt="Hero"
+            alt="Hero illustration"
             className="md:absolute md:h-full md:w-auto md:max-w-none"
             animate={{ translateY: [-30, 30] }}
-            transition={{
-              repeat: Infinity,
-              repeatType: "mirror",
-              duration: 3,
-              ease: "easeInOut",
-            }}
+            transition={{ repeat: Infinity, repeatType: "mirror", duration: 3, ease: "easeInOut" }}
           />
           <motion.img
             src={HalfTorus.src}

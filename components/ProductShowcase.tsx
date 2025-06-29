@@ -11,6 +11,19 @@ import { GoShieldCheck, GoGraph } from "react-icons/go";
 import { LuDatabase } from "react-icons/lu";
 import { MdVisibility } from "react-icons/md";
 
+const WAITLIST_URL = "https://tally.so/r/wM2d2M";
+
+const FeatureLink = ({ children }: { children: React.ReactNode }) => (
+  <a
+    href={WAITLIST_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-lg font-medium hover:underline inline-flex items-center gap-1"
+  >
+    {children} <FaArrowRight className="h-3 w-3" />
+  </a>
+);
+
 const ProductShowcase = () => {
   const sectionRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -24,6 +37,7 @@ const ProductShowcase = () => {
       ref={sectionRef}
       className="bg-gradient-to-t from-[#acbae8] to-white flex flex-col items-center overflow-x-hidden pb-24"
     >
+      {/* header block unchanged */}
       <div className="flex flex-col items-center font-medium mt-24 px-8 mx-auto md:w-[550px] lg:w-[630px]">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
           Why Mictlan AI
@@ -32,12 +46,12 @@ const ProductShowcase = () => {
           Built for integrity-first hiring
         </div>
         <div className="text-center text-lg mb-8 md:text-xl">
-          Our ever-growing library of human-vetted, LLM-resistant competitive
-          programming problems spots AI-generated answers instantly and provides
-          granular analytics on genuine candidate ability.
+          Our ever-growing library of human-vetted, LLM-resistant challenges
+          spots AI-generated answers instantly and surfaces true ability.
         </div>
       </div>
 
+      {/* mock screenshot */}
       <div className="relative">
         <motion.img
           src={Pyramid.src}
@@ -54,6 +68,7 @@ const ProductShowcase = () => {
         />
       </div>
 
+      {/* feature grid */}
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 max-w-[1400px] lg:px-28">
         <div className="mt-16">
           <LuDatabase className="text-2xl mb-3" />
@@ -62,9 +77,7 @@ const ProductShowcase = () => {
             Thousands of fresh questions tested on engineers—and on every major
             LLM—to ensure humans pass while bots flunk.
           </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
+          <FeatureLink>Learn more</FeatureLink>
         </div>
 
         <div className="mt-16">
@@ -74,9 +87,7 @@ const ProductShowcase = () => {
             Code playback, copy-paste detection and webcam proctoring give a
             clear audit trail for every attempt.
           </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
+          <FeatureLink>Learn more</FeatureLink>
         </div>
 
         <div className="mt-16">
@@ -86,21 +97,17 @@ const ProductShowcase = () => {
             Dynamic scoring benchmarks each candidate against calibrated human
             percentiles.
           </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
+          <FeatureLink>Learn more</FeatureLink>
         </div>
 
         <div className="mt-16">
           <GoShieldCheck className="text-2xl mb-3" />
           <div className="font-bold text-2xl">LLM signature detection</div>
           <div className="text-lg my-2">
-            Proprietary heuristics flag ChatGPT-style patterns with &gt;95 %
+            Proprietary heuristics flag ChatGPT-style patterns with&nbsp;&gt;95 %
             precision, so you know who really solved the problem.
           </div>
-          <div className="text-lg font-medium">
-            Learn more <FaArrowRight className="inline h-3 w-3" />
-          </div>
+          <FeatureLink>Learn more</FeatureLink>
         </div>
       </div>
     </div>

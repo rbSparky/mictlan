@@ -1,8 +1,22 @@
 import { IoMdCheckmark } from "react-icons/io";
 
+const WAITLIST_URL = "https://tally.so/r/wM2d2M";
+
+const PlanButton = ({ text }: { text: string }) => (
+  <a
+    href={WAITLIST_URL}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white bg-black py-1.5 w-full rounded-lg cursor-pointer inline-block text-center font-medium"
+  >
+    {text}
+  </a>
+);
+
 const Pricing = () => {
   return (
     <div className="mb-8">
+      {/* heading unchanged */}
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
           Simple, transparent pricing
@@ -16,6 +30,7 @@ const Pricing = () => {
         </div>
       </div>
 
+      {/* plan cards */}
       <div className="flex flex-col lg:flex-row items-center lg:items-end justify-center pb-20 gap-8">
         {/* Community */}
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
@@ -24,10 +39,8 @@ const Pricing = () => {
             <span className="font-extrabold text-5xl">$0</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
-          <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Get started free
-          </button>
-          <div className="flex flex-col gap-6">
+          <PlanButton text="Join wait-list" />
+          <div className="flex flex-col gap-6 mt-8">
             <div><IoMdCheckmark className="inline mr-2" />10 candidates / month</div>
             <div><IoMdCheckmark className="inline mr-2" />Core question bank</div>
             <div><IoMdCheckmark className="inline mr-2" />Basic LLM detection</div>
@@ -47,10 +60,8 @@ const Pricing = () => {
             <span className="font-extrabold text-5xl">$99</span>
             <span className="font-semibold text-gray-400">/month</span>
           </div>
-          <button className="text-black font-medium mb-8 bg-white py-1.5 w-full rounded-lg cursor-pointer">
-            Start free trial
-          </button>
-          <div className="flex flex-col gap-6">
+          <PlanButton text="Join wait-list" />
+          <div className="flex flex-col gap-6 mt-8">
             <div><IoMdCheckmark className="inline mr-2" />100 candidates / month</div>
             <div><IoMdCheckmark className="inline mr-2" />Unlimited roles</div>
             <div><IoMdCheckmark className="inline mr-2" />Advanced LLM detection</div>
@@ -66,10 +77,8 @@ const Pricing = () => {
             <span className="font-extrabold text-5xl">$199</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
-          <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Contact sales
-          </button>
-          <div className="flex flex-col gap-6">
+          <PlanButton text="Join wait-list" />
+          <div className="flex flex-col gap-6 mt-8">
             <div><IoMdCheckmark className="inline mr-2" />Unlimited candidates</div>
             <div><IoMdCheckmark className="inline mr-2" />Custom questions</div>
             <div><IoMdCheckmark className="inline mr-2" />Dedicated CSM</div>

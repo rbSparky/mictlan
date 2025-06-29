@@ -7,6 +7,8 @@ import Helix from "@/public/assests/helix2 1.png";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
+const WAITLIST_URL = "https://tally.so/r/wM2d2M";
+
 const CTA = () => {
   const sectionRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -38,14 +40,18 @@ const CTA = () => {
         </div>
         <div className="text-center text-lg mb-8 md:text-xl">
           Discover how Mictlan AI eliminates cheating and reveals real
-          engineering talent. Create a free account or book a live demo today.
+          engineering talent. Join the wait-list or book a live demo now.
         </div>
         <div className="flex items-center gap-4 mt-4 text-lg">
-          <Button text="Get started free" />
-          <div className="font-semibold cursor-pointer hover:underline">
-            Book a demo
-            <FaArrowRight className="h-3 w-3 inline ml-2" />
-          </div>
+          <Button text="Join wait-list" />
+          <a
+            href={WAITLIST_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold hover:underline inline-flex items-center gap-1"
+          >
+            Book a demo <FaArrowRight className="h-3 w-3" />
+          </a>
         </div>
       </div>
     </div>
