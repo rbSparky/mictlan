@@ -7,21 +7,22 @@ const Pricing = () => {
     <div className="mb-8">
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
-          Transparent Pricing
+          Boost your productivity
         </div>
         <div className="text-3xl md:text-4xl lg:text-5xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          Pricing for Modern Hiring
+          A more effective way to track progress
         </div>
 
         <div className="text-center text-lg mb-8 md:text-xl">
-          Choose a plan that fits your company's scale. Start identifying
-          top-tier, authentic engineering talent today.
+          Effortlessly turn your ideas into a fully functional, responsive,
+          no-code SaaS website in just minutes with the set of free components
+          for Framer.
         </div>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center lg:items-end justify-center pb-20 gap-8">
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
-          <div className="font-bold text-gray-500">Starter</div>
+          <div className="font-bold text-gray-500">Free</div>
           <div className="py-8">
             <span className="font-extrabold text-5xl">$0</span>
             <span className="font-semibold text-gray-600">/month</span>
@@ -31,17 +32,20 @@ const Pricing = () => {
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 5 Assessments / month
+              <IoMdCheckmark className="inline mr-2" /> Up to 5 project members
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Access to Introductory
-              Problem Set
+              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
+              projects
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Basic Candidate Reports
+              <IoMdCheckmark className="inline mr-2" /> 2GB storage
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Standard Support
+              <IoMdCheckmark className="inline mr-2" /> Integrations
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" /> Basic support
             </div>
           </div>
         </div>
@@ -54,7 +58,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">$99</span>
+            <span className="font-extrabold text-5xl">$9</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-black font-medium mb-8 bg-white py-1.5 w-full rounded-lg cursor-pointer">
@@ -62,55 +66,73 @@ const Pricing = () => {
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> 50 Assessments / month
+              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Full LLM-Resistant
-              Question Bank
+              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
+              projects
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Detailed Performance
-              Analytics
+              <IoMdCheckmark className="inline mr-2" /> 50GB storage
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> ATS Integrations
+              <IoMdCheckmark className="inline mr-2" /> Integrations
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Priority Email & Chat
-              Support
+              <IoMdCheckmark className="inline mr-2" /> Priority support
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" /> Advanced support
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" /> Expert support
             </div>
           </div>
         </div>
         <div className="shadow-xl border-gray-100 border-2 rounded-2xl p-8">
-          <div className="font-bold text-gray-500">Enterprise</div>
+          <div className="font-bold text-gray-500">Business</div>
           <div className="py-8">
-            <span className="font-extrabold text-5xl">Contact</span>
-            <span className="font-semibold text-gray-600"> Us</span>
+            <span className="font-extrabold text-5xl">$19</span>
+            <span className="font-semibold text-gray-600">/month</span>
           </div>
           <button className="text-white mb-8 bg-black py-1.5 w-full rounded-lg cursor-pointer">
-            Request a Demo
+            Sign up now
           </button>
           <div className="flex flex-col gap-6">
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Custom Assessment Volume
+              <IoMdCheckmark className="inline mr-2" /> Up to 50 project members
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Access to All Problem
-              Domains
+              <IoMdCheckmark className="inline mr-2" /> Unlimited tasks and
+              projects
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Advanced Candidate
-              Insights
+              <IoMdCheckmark className="inline mr-2" /> 200GB storage
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Dedicated Account Manager
+              <IoMdCheckmark className="inline mr-2" /> Integrations
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> Custom Problem Creation
+              <IoMdCheckmark className="inline mr-2" /> Dedicated account
+              manager
             </div>
             <div>
-              <IoMdCheckmark className="inline mr-2" /> API Access & Advanced
-              Security
+              <IoMdCheckmark className="inline mr-2" /> Custom fields
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" />
+              Advanced analytics
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" />
+              Export capabilities
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" /> API access
+            </div>
+            <div>
+              <IoMdCheckmark className="inline mr-2" /> Advanced security
+              features
             </div>
           </div>
         </div>

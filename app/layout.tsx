@@ -7,9 +7,9 @@ import { twMerge } from "tailwind-merge";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mictlan AI - LLM-Resistant Hiring Assessments",
+  title: "Mictlan AI – LLM-Resistant Hiring Assessments",
   description:
-    "Hire real talent, not AI impersonators. Mictlan AI provides cheat-proof coding assessments that current LLMs can't solve.",
+    "Stop AI-generated cheating in technical hiring. Mictlan AI delivers human-vetted, LLM-resistant coding challenges so you identify authentic engineering talent with confidence.",
 };
 
 export default function RootLayout({
@@ -22,10 +22,11 @@ export default function RootLayout({
       <body className={twMerge(dmSans.className, "antialiased")}>
         <div className="bg-black text-white p-3 text-sm text-center cursor-pointer">
           <span className="hidden sm:inline pr-2 opacity-80">
-            Hiring integrity is under threat. See how we're fighting back.
+            Stop AI-generated cheating in tech hiring.
           </span>
-          <span className="pr-1">
-            Request a Demo <FaArrowRight className="inline h-2 w-2" />
+          <span className="pr-1 font-semibold">
+            Try Mictlan AI free&nbsp;
+            <FaArrowRight className="inline h-2 w-2" />
           </span>
         </div>
         {children}

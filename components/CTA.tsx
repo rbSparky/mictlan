@@ -41,18 +41,18 @@ const CTA = () => {
           }}
         />
         <div className="text-4xl md:text-5xl lg:text-6xl py-6 font-bold tracking-tighter text-center bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text">
-          Stop Guessing. Start Hiring with Confidence.
+          Sign up for free today
         </div>
 
         <div className="text-center text-lg mb-8 md:text-xl">
-          Ready to build a cheat-proof hiring process? See how Mictlan AI
-          reveals the authentic talent you've been searching for.
+          Celebrate the joy of accomplishment with an app designed to track your
+          progress and motivate your efforts.
         </div>
 
         <div className="flex items-center gap-4 mt-4 text-lg">
-          <Button text="Request a Demo" />
+          <Button text="Get for free" />
           <div className="font-semibold cursor-pointer  hover:underline">
-            View Pricing
+            Learn more
             <FaArrowRight className="h-3 w-3 inline ml-2" />
           </div>
         </div>

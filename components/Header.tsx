@@ -6,29 +6,26 @@ import Button from "./Button";
 const Header = () => {
   return (
     <header className="flex justify-between items-center px-6 py-4 backdrop-blur-md sticky top-0 z-20 bg-gradient-to-r from-[#E0E7FD] to-[#FDFEFF] shadow-md">
-      <div className="flex items-center gap-2">
-        <Image src={Logo} alt="Logo" className="cursor-pointer h-8 w-auto" />
-        <span className="font-bold text-xl">Mictlan AI</span>
-      </div>
+      <Image src={Logo} alt="Logo" className="cursor-pointer"/>
       <FaBars className="block md:hidden" />
       <nav className="hidden md:block">
         <ul className="flex gap-6 items-center">
           <li>
-            <a href="#">Why Mictlan?</a>
+            <a href="#">About</a>
           </li>
           <li>
             <a href="#">Features</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="#">Customers</a>
           </li>
           <li>
-            <a href="#">Case Studies</a>
+            <a href="#">Updates</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#">Help</a>
           </li>
-          <Button text="Request a Demo" />
+          <Button text="Get for free" />
         </ul>
       </nav>
     </header>
