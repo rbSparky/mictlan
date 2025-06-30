@@ -29,11 +29,10 @@ const Hero = () => {
             LLM-resistant assessments
           </div>
           <div className="text-5xl md:text-7xl font-black my-7 bg-gradient-to-b from-black to-[#002499] text-transparent bg-clip-text tracking-tighter">
-            Cheating-proof tech hiring
+            Scam-proof tech hiring
           </div>
           <div className="text-xl lg:text-2xl tracking-tighter opacity-85">
-            71 % of candidates admit to cheating. Mictlan AI reveals true
-            problem-solvers—not prompt engineers.
+            71 % of candidates admit to cheating. Mictlan AI reduces it to 0.
           </div>
 
           <div className="flex items-center gap-3 mt-6 text-lg">
