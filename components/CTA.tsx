@@ -1,3 +1,5 @@
+// /components/CTA.tsx
+
 "use client";
 
 import { FaArrowRight } from "react-icons/fa";
@@ -8,6 +10,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const WAITLIST_URL = "https://tally.so/r/wM2d2M";
+const DEMO_URL      = "https://calendly.com/vkalsariya121/demo-call";
 
 const CTA = () => {
   const sectionRef = useRef(null);
@@ -45,7 +48,7 @@ const CTA = () => {
         <div className="flex items-center gap-4 mt-4 text-lg">
           <Button text="Join wait-list" />
           <a
-            href={WAITLIST_URL}
+            href={DEMO_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold hover:underline inline-flex items-center gap-1"
