@@ -12,7 +12,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-black text-white p-16 gap-8 justify-between md:px-20 xl:px-44">
+    <div id="contact"  className="flex flex-col md:flex-row bg-black text-white p-16 gap-8 justify-between md:px-20 xl:px-44">
       <div className="flex flex-col gap-8 text-gray-300/85 max-w-[300px]">
         {/* <Image src={Logo} alt="Logo" className="cursor-pointer" />
         <div>
@@ -34,12 +34,13 @@ const Footer = () => {
       </div>
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Product</div>
-        <div className="cursor-pointer text-gray-300/85">Features</div>
-        <div className="cursor-pointer text-gray-300/85">Integrations</div>
-        <div className="cursor-pointer text-gray-300/85">Updates</div>
-        <div className="cursor-pointer text-gray-300/85">FAQ</div>
-        <div className="cursor-pointer text-gray-300/85">Pricing</div>
+        <a href="#features"     className="cursor-pointer text-gray-300/85">Features</a>
+        <a href="#integrations" className="cursor-pointer text-gray-300/85">Integrations</a>
+        <a href="#updates"      className="cursor-pointer text-gray-300/85">Updates</a>
+        <a href="#faq"          className="cursor-pointer text-gray-300/85">FAQ</a>
+        <a href="#pricing"      className="cursor-pointer text-gray-300/85">Pricing</a>
       </div>
+
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Company</div>
         <div className="cursor-pointer text-gray-300/85">About</div>

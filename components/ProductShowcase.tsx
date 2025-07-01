@@ -34,6 +34,7 @@ const ProductShowcase = () => {
 
   return (
     <div
+      id="why-mictlan"
       ref={sectionRef}
       className="bg-gradient-to-t from-[#acbae8] to-white flex flex-col items-center overflow-x-hidden pb-24"
     >

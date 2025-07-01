@@ -15,7 +15,7 @@ const PlanButton = ({ text }: { text: string }) => (
 
 const Pricing = () => {
   return (
-    <div className="mb-8">
+    <div id="pricing" className="mb-8">
       {/* heading unchanged */}
       <div className="flex flex-col items-center font-medium mt-16 mb-12 px-12 mx-auto max-w-[550px] ">
         <div className="border-2 w-fit p-0.5 px-3 text-sm rounded-xl border-slate-300/80">
@@ -77,7 +77,9 @@ const Pricing = () => {
             <span className="font-extrabold text-5xl">$199</span>
             <span className="font-semibold text-gray-600">/month</span>
           </div>
-          <PlanButton text="Join wait-list" />
+          <PlanButton text="Join
+          
+          wait-list" />
           <div className="flex flex-col gap-6 mt-8">
             <div><IoMdCheckmark className="inline mr-2" />Unlimited candidates</div>
             <div><IoMdCheckmark className="inline mr-2" />Custom questions</div>

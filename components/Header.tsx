@@ -14,19 +14,19 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex gap-6 items-center">
           <li>
-            <a href="#">Why Mictlan?</a>
+            <a href="#why-mictlan">Why Mictlan?</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
+          {/* <li>
+            <a href="#case-studies">Case Studies</a>
+          </li> */}
           <li>
-            <a href="#">Case Studies</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <Button text="Request a Demo" />
         </ul>
