@@ -35,10 +35,10 @@ const Footer = () => {
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Product</div>
         <a href="#features"     className="cursor-pointer text-gray-300/85">Features</a>
-        <a href="#integrations" className="cursor-pointer text-gray-300/85">Integrations</a>
-        <a href="#updates"      className="cursor-pointer text-gray-300/85">Updates</a>
-        <a href="#faq"          className="cursor-pointer text-gray-300/85">FAQ</a>
+        <a href="#why-mictlan" className="cursor-pointer text-gray-300/85">Why Mictlan?</a>
         <a href="#pricing"      className="cursor-pointer text-gray-300/85">Pricing</a>
+        {/* <a href="#contact"          className="cursor-pointer text-gray-300/85">FAQ</a>
+        <a href="#pricing"      className="cursor-pointer text-gray-300/85">Pricing</a> */}
       </div>
 
       <div className="flex flex-col gap-4">
