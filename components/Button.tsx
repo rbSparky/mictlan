@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const Button = ({ text, href }: ButtonProps) => (
   <a
-    href={href ?? WAITLIST_URL}
+    href={href}
     target="_blank"
     rel="noopener noreferrer"
     className="text-white bg-black py-2 px-3 rounded-lg cursor-pointer inline-block"
