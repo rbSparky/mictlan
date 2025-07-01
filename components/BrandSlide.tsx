@@ -25,27 +25,27 @@ const BrandSlide = () => {
             repeatType: "loop",
           }}
         >
-          <Image src={logo_acme} alt="logo_acme" className="h-8 w-auto" />
-          <Image src={logo_apex} alt="logo_apex" className="h-8 w-auto" />
+          <Image src={logo_acme} alt="logo_acme" className="h-32 w-auto" />
+          <Image src={logo_apex} alt="logo_apex" className="h-32 w-auto" />
           <Image
             src={logo_celestial}
             alt="logo_celestial"
-            className="h-8 w-auto"
+            className="h-32 w-auto"
           />
-          <Image src={logo_echo} alt="logo_echo" className="h-8 w-auto" />
-          <Image src={logo_pulse} alt="logo_pulse" className="h-8 w-auto" />
-          <Image src={logo_quantum} alt="logo_quantum" className="h-8 w-auto" />
+          <Image src={logo_echo} alt="logo_echo" className="h-32 w-auto" />
+          <Image src={logo_pulse} alt="logo_pulse" className="h-32 w-auto" />
+          <Image src={logo_quantum} alt="logo_quantum" className="h-32 w-auto" />
 
-          <Image src={logo_acme} alt="logo_acme" className="h-8 w-auto" />
-          <Image src={logo_apex} alt="logo_apex" className="h-8 w-auto" />
+          <Image src={logo_acme} alt="logo_acme" className="h-32 w-auto" />
+          <Image src={logo_apex} alt="logo_apex" className="h-32 w-auto" />
           <Image
             src={logo_celestial}
             alt="logo_celestial"
-            className="h-8 w-auto"
+            className="h-32 w-auto"
           />
-          <Image src={logo_echo} alt="logo_echo" className="h-8 w-auto" />
-          <Image src={logo_pulse} alt="logo_pulse" className="h-8 w-auto" />
-          <Image src={logo_quantum} alt="logo_quantum" className="h-8 w-auto" />
+          <Image src={logo_echo} alt="logo_echo" className="h-32 w-auto" />
+          <Image src={logo_pulse} alt="logo_pulse" className="h-32 w-auto" />
+          <Image src={logo_quantum} alt="logo_quantum" className="h-32 w-auto" />
         </motion.div>
       </div>
     </div>
