@@ -1,3 +1,5 @@
+// /components/Header.tsx
+
 import Image from "next/image";
 import Logo from "@/public/assests/logo.png";
 import { FaBars } from "react-icons/fa";
@@ -28,7 +30,10 @@ const Header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <Button text="Request a Demo" />
+          <Button
+            text="Request a Demo"
+            href="https://calendly.com/vkalsariya121/demo-call"
+          />
         </ul>
       </nav>
     </header>
