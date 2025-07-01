@@ -16,7 +16,7 @@ const Hero = () => {
     target: heroRef,
     offset: ["start end", "end start"],
   });
-  const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
+  const translateY = useTransform(scrollYProgress, [0, 1], [300, -300]);
 
   return (
     <section
