@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="cursor-pointer text-gray-300/85">Careers</div>
         <div className="cursor-pointer text-gray-300/85">Manifesto</div>
         <div className="cursor-pointer text-gray-300/85">Press</div> */}
-        <a href="#contact" className="cursor-pointer text-gray-300/85">Contact</div>
+        <a href="#contact"    className="cursor-pointer text-gray-300/85">Contact</a>
       </div>
       {/* <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Resources</div>
