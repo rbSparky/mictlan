@@ -43,12 +43,12 @@ const Footer = () => {
 
       <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Company</div>
-        <div className="cursor-pointer text-gray-300/85">About</div>
+        <a href="#why-mictlan" className="cursor-pointer text-gray-300/85">About</a>
         {/* <div className="cursor-pointer text-gray-300/85">Blog</div>
         <div className="cursor-pointer text-gray-300/85">Careers</div>
         <div className="cursor-pointer text-gray-300/85">Manifesto</div>
         <div className="cursor-pointer text-gray-300/85">Press</div> */}
-        <div className="cursor-pointer text-gray-300/85">Contact</div>
+        <a href="#contact" className="cursor-pointer text-gray-300/85">Contact</div>
       </div>
       {/* <div className="flex flex-col gap-4">
         <div className="font-bold text-lg">Resources</div>
